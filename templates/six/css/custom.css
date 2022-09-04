@@ -1,0 +1,232 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+/**
+ * WHMCS Main Style Sheet
+ *
+ * Additional styles for WHMCS beyond Bootstrap
+ *
+ * This stylesheet contains all the customized styling used
+ * by WHMCS.  Overrides to Bootstrap styles can be found in
+ * overrides.css.
+ *
+ * @project   WHMCS
+ * @cssdoc    version 1.0-pre
+ * @package   WHMCS
+ * @author    WHMCS Limited <development@whmcs.com>
+ * @copyright Copyright (c) WHMCS Limited 2005-2018
+ * @license   http://www.whmcs.com/license/
+ * @link      http://www.whmcs.com/
+ */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap');
+
+/*================================================
+Moz Selection
+================================================*/
+:root{--primary-color:#0072ff;--blue-color:#00c6ff;--dark-color:#002450;--secondary-color:#606c7a;--grey-color:#f5f9ff;--white-color:#ffffff;--body-fonts:'Jost',sans-serif;--title-fonts:'Jost',sans-serif;}
+::-moz-selection{text-shadow:none;background:var(--primary-color);color:#fff;}
+::-moz-selection{text-shadow:none;background:var(--primary-color);color:#fff;}
+::selection{text-shadow:none;background:var(--primary-color);color:#fff;}
+
+/*================================================
+General
+================================================*/
+body{background:var(--white-color);font-family:var(--body-fonts);font-size:16px;font-style:normal;font-weight:normal;line-height:1.8;color:var(--secondary-color);overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6{font-family:var(--title-fonts);color:var(--dark-color);font-style:normal;text-transform:capitalize;font-weight:600;margin:0;-ms-word-wrap:break-word;word-wrap:break-word;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit;}
+h1{font-size:40px;font-style:normal;line-height:48px;}
+h2{font-size:36px;font-style:normal;line-height:44px;}
+h3{font-size:32px;font-style:normal;line-height:40px;}
+h4{font-size:28px;font-style:normal;line-height:36px;}
+h5{font-size:24px;font-style:normal;line-height:32px;}
+h6{font-size:20px;font-style:normal;line-height:28px;}
+
+/*===== HTML Tags =====*/
+a{color:var(--primary-color);outline:none!important;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+a:focus,a:hover{color:var(--primary-color);outline:none;text-decoration:none!important;}
+
+/*===== Input Textarea =====*/
+input[type=checkbox],input[type=radio]{margin:7px 0 0;}
+.form-group{margin-bottom:15px;display:inline-block;width:100%;}
+label{font-family:var(--title-fonts);color:var(--dark-color);font-weight:600;margin:0;}
+input,input.form-control,.input-group .form-control,#registration .field,#registration .form-control{background:var(--grey-color);box-shadow:none;border:1px solid var(--grey-color);color:var(--dark-color);font-size:16px;padding:0 30px;line-height:54px;height:54px;outline:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+input:focus,input:hover,textarea:focus,textarea:hover,.form-control:focus,#registration .prepend-icon .field:focus,#registration .prepend-icon .field:hover{border-color:var(--primary-color);outline:none;box-shadow:none;}
+input[type="radio"],input[type="checkbox"]{width:auto;height:auto;float:none;margin-right:5px;}
+textarea,textarea.form-control{background:var(--grey-color);box-shadow:none;border:1px solid var(--grey-color);color:var(--dark-color);width:100%;float:left;padding:10px 30px;outline:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+
+/*===== registration =====*/
+#registration .prepend-icon .field-icon{line-height:54px;height:54px;color:var(--primary-color);}
+#registration .prepend-icon .field-icon i{color:var(--primary-color);}
+#registration .prepend-icon .field{padding-left:50px;}
+#registration .prepend-icon .separate-dial-code .form-control{padding-left:90px;}
+.alert{border-radius:0;}
+
+/*================================================
+Button Core
+================================================*/
+.btn-primary,.btn-default,.btn-success,.kb-search>.input-group-btn>.btn{padding:10px 45px;font-family:var(--title-fonts);font-size:18px;background:linear-gradient(to right,var(--blue-color) 0%,var(--primary-color) 51%,var(--blue-color) 100%);background-size:200% auto;color:var(--white-color);text-transform:capitalize;color:var(--white-color);display:inline-block;border:none;width:auto;height:auto;line-height:2;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+.btn-primary:hover,.btn-primary:focus,.btn-default:hover,.btn-default:focus,.btn-success:hover,.btn-success:focus,.kb-search>.input-group-btn>.btn:hover,.kb-search>.input-group-btn>.btn:hover,.btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-primary{background-position:right center;color:var(--white-color);}
+
+/*===== Button outline =====*/
+.btn-default{background:transparent;border:1px solid var(--primary-color);color:var(--primary-color);}
+.btn-default:hover{color:var(--blue-color);border:1px solid var(--blue-color);background:transparent;}
+.btn.btn-sm{padding:8px 15px;font-size:14px;line-height:1.5;}
+.main-content{margin-bottom:0;}
+section#main-body{padding:100px;}
+
+/*================================================
+logo
+================================================*/
+section#header .logo-text{font-size:2.11111em;line-height:normal;text-decoration:none;text-transform:uppercase;font-weight:800;font-family:var(--title-fonts);color:var(--dark-color);}
+section#header .logo-text:hover{text-decoration:none;}
+
+/*================================================
+Nav
+================================================*/
+section#header ul.top-nav{margin:0;padding:0;}
+section#header ul.top-nav>li>a{color:var(--dark-color);font-family:var(--title-fonts);}
+section#header ul.top-nav>li.primary-action>a.btn{position:relative;width:auto;background:linear-gradient(to right,var(--blue-color) 0%,var(--primary-color) 51%,var(--blue-color) 100%);background-size:200% auto;color:var(--white-color);font-family:var(--title-fonts);padding:14px 30px;vertical-align:middle;border:none;display:inline-block;overflow:hidden;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+section#header ul.top-nav>li.primary-action>a.btn span{z-index:9;position:relative;}
+section#header ul.top-nav>li.primary-action>a.btn:hover,section#header ul.top-nav>li.primary-action>a.btn:focus{color:var(--white-color);background-position:right center;}
+
+/*================================================
+Main Menu
+================================================*/
+section#main-menu .navbar-main{background:var(--dark-color);font-family:var(--title-fonts);border-radius:0;font-size:16px;line-height:2;min-height:inherit;}
+section#main-menu .navbar-main .navbar-nav>li>a{line-height:2;padding:10px 15px;}
+.navbar-main .navbar-nav>.active>a,.navbar-main .navbar-nav>.active>a:focus,.navbar-main .navbar-nav>.active>a:hover,.navbar-main .navbar-nav>.open>a,.navbar-main .navbar-nav>.open>a:focus,.navbar-main .navbar-nav>.open>a:hover,.navbar-main .navbar-nav>li>a:focus,.navbar-main .navbar-nav>li>a:hover{color:#fff;background-color:var(--primary-color);}
+
+/*================================================
+banner
+================================================*/
+section#home-banner{background-image:linear-gradient(90deg,#00BBFF 0%,#0072FF 100%);padding:100px 0;position:relative;overflow:hidden;}
+section#home-banner h2{color:var(--white-color);font-size:42px;line-height:50px;margin-bottom:30px;}
+section#home-banner:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;display:inline-block;background:url('https://hostingo.peacefulqode.com/wp-content/uploads/2020/12/Polygon-Luminary-2.svg');opacity:0.2;background-repeat:no-repeat;background-position:center;background-attachment:fixed;}
+section#home-banner #frmDomainHomepage .input-group{background:var(--white-color);padding:5px;}
+section#home-banner .btn.search{background:var(--primary-color);}
+section#home-banner .btn.transfer{background:var(--blue-color);}
+section#home-banner .tooltip-inner{background:var(--white-color);color:var(--dark-color);}
+section#home-banner .tooltip.left .tooltip-arrow{border-left-color:var(--white-color);}
+
+/*================================================
+Login
+================================================*/
+.logincontainer{padding:45px;box-shadow:0px 0px 30px 0px rgba(0,36.00000000000005,80,0.1);margin:0 auto;}
+div.header-lined h1{font-family:var(--title-fonts);color:var(--dark-color);font-weight:800;border-bottom:1px solid var(--secondary-color);padding:0 0 15px;margin:0 0 15px;}
+div.header-lined h1 small{font-size:50%;color:var(--secondary-color);}
+
+/*================================================
+footer
+================================================*/
+section#footer{background:var(--dark-color);border:none;color:var(--white-color);}
+section#footer .back-to-top i{background:var(--white-color);color:var(--primary-color);opacity:1;}
+
+/*================================================
+sidebar
+================================================*/
+.panel-sidebar{border-radius:0;font-size:16px;border:1px solid var(--grey-color);}
+.panel-sidebar>.panel-heading{background:var(--dark-color);}
+.panel-sidebar .panel-title{color:var(--white-color);}
+.panel-sidebar .panel-minimise{font-size:16px;color:var(--white-color);margin:7px 0 0;}
+.list-group-item{padding:10px 15px;}
+.panel>.list-group .list-group-item{color:var(--dark-color);}
+.panel-sidebar .list-group-item i:not(.fa-circle):not(.fa-dot-circle):not(.no-transform){color:var(--primary-color);}
+#registration .sub-heading span{color:var(--primary-color);font-size:22px;line-height:30px;padding:0 30px;}
+#registration .sub-heading{margin:30px 0;top:-18px;}
+.panel-sidebar a.list-group-item.active,.panel-sidebar a.list-group-item.active:focus,.panel-sidebar a.list-group-item.active:hover{background:var(--primary-color);color:var(--white-color);}
+.marketing-email-optin{padding:30px;border-radius:0;margin:0;}
+.panel-sidebar a.list-group-item.active i,.panel-sidebar a.list-group-item.active:hover i,.panel-sidebar a.list-group-item.active:focus i{color:#ffffff!important;}
+
+/*================================================
+Review & Checkout
+================================================*/
+.nav-tabs>li>a{border-radius:0;}
+.main-content #order-standard_cart .view-cart-items-header{background-color:var(--dark-color);color:#fff;font-size:16px;border-radius:0;}
+.main-content #order-standard_cart .order-summary{background-color:var(--primary-color);border-bottom:3px solid var(--primary-color);border-radius:0;}
+.main-content #order-standard_cart .view-cart-items{border-bottom:2px solid var(--dark-color);}
+.main-content #order-standard_cart .summary-container{padding:15px;font-size:16px;border-radius:0;}
+
+/*================================================
+breadcrumb
+================================================*/
+div.header-lined .breadcrumb{font-size:16px;border-radius:0;}
+.kb-search{margin-bottom:30px;}
+
+/*================================================
+Register Domain
+================================================*/
+.domain-checker-container,.featured-tld .price,.main-content .domain-promo-box{border-radius:0;}
+.domain-checker-container .input-group-box,#order-standard_cart .input-group-lg>.form-control,.input-group-btn:last-child>.btn{border-radius:0;}
+.featured-tld{border-radius:0;box-shadow:0px 0px 30px 0px rgba(0,36,80,0.1);}
+.main-content .domain-promo-box h3{margin:0;font-weight:600;}
+
+/*================================================
+Transfer Domain
+================================================*/
+.panel-default>.panel-heading{color:#fff;border-radius:0;background-color:#002450;border-color:#002450;}
+.panel-title{border-radius:0;font-size:22px;}
+.main-content #order-standard_cart label{font-family:var(--title-fonts);color:var(--dark-color);font-weight:600;margin:0;font-size:16px;line-height:1.8;}
+.main-content #order-standard_cart .form-control{background:var(--grey-color);box-shadow:none;border:1px solid var(--grey-color);color:var(--dark-color);width:100%;float:left;font-size:16px;padding:0 15px;height:54px;line-height:54px;outline:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+.main-content #order-standard_cart .form-control:focus,.main-content #order-standard_cart .form-control:hover{border-color:var(--primary-color);outline:none;box-shadow:none;}
+.panel-footer{border-radius:0;background:#ffffff;}
+
+/*================================================
+breadcrumb
+================================================*/
+.home-shortcuts{padding:60px 0;background:#f5f9ff;color:var(--dark-color);}
+.home-shortcuts .lead{font-weight:600;font-size:32px;line-height:40px;}
+.home-shortcuts li{padding:45px 15px;background:#ffffff;font-size:16px;border:none;margin:0 5px;width:23.6666666%;}
+.home-shortcuts li i{color:var(--primary-color);font-size:42px;line-height:50px;}
+.home-shortcuts li:first-child{border:none;margin-bottom:30px;}
+.home-shortcuts li p{margin:15px 0 0;color:var(--dark-color);}
+.home-shortcuts li span{transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;}
+.home-shortcuts .row{display:flex;}
+.home-shortcuts .col-md-4.hidden-sm.hidden-xs.text-center{-ms-flex-item-align:center!important;align-self:center!important;}
+div.announcement-single .label{margin-right:10px;font-size:16px;font-weight:400;background:var(--primary-color);}
+
+/*================================================
+breadcrumb
+================================================*/
+@media (max-width:1199px){
+    .home-shortcuts li{margin:0px 4px;}
+    .home-shortcuts li{font-size:14px;}
+    section#main-body{padding:100px 0px;}
+}
+@media (max-width:479px){
+    .home-shortcuts li{width:100%;margin:0px 15px;}
+    .home-shortcuts li:first-child{}
+    section#main-body{padding:0px;}
+    .main-content{padding:0;}
+    div.header-lined h1{font-family:var(--title-fonts);color:var(--dark-color);font-weight:800;border-bottom:1px solid var(--secondary-color);padding:0px 15px;font-size:27px;}
+    div.header-lined p{padding:0px 15px;}
+}
+@media (max-width:1023px){
+    .home-shortcuts li{display:inline-block;margin:auto 4px;}
+}
+@media (max-width:767px){
+    ul.top-nav>li>a{padding:2px;}
+    section#header ul.top-nav{margin:0;padding:0;float:left;}
+    .home-shortcuts ul{margin:0;padding:0px 30px 0px 0px;}
+    .home-shortcuts li{border:none;margin-bottom:30px;}
+    .home-shortcuts li:last-child{margin-bottom:0px;}
+    .home-shortcuts li{width:89%;}
+    section#main-body{padding:60px 15px;}
+    .home-shortcuts .row{display:block;padding:0px;}
+    #btnShowSidebar{margin:20px 0 20px 20px!important;}
+    .main-content{padding:0px;margin:0px;}
+    #order-premium_comparison .price-table-container ul li{padding:30px 10px 5px 5px!important;}
+    section#home-banner h2{font-size:30px;line-height:38px;}
+    .logincontainer{padding:45px 15px;box-shadow:none;}
+    #registration{padding:0px 15px;}
+    section#home-banner h2{padding:0;}
+    section#home-banner{padding:45px 0;}
+}
+@media (max-width:479px){
+    .logincontainer .login-form .btn-default{margin-top:15px;}
+}
