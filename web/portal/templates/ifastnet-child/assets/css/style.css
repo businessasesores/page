@@ -1,7 +1,7 @@
 .language-formx select {
 background: white;
 padding: 3px;
-color: #f77b0a;
+color: #5328ff;
 font-weight: bold;
 font-size: 15px;
 }
@@ -64,7 +64,7 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #f67c0a;
+    color: #5328ff;
 }
 a:focus {
     text-decoration: none;
@@ -116,7 +116,7 @@ i.breadcrumbIcon {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     background-color: transparent;
-    color: #f67c0a;
+    color: #5328ff;
     border-bottom: 3px solid #f67c0a;
 }
 .navbar-default .navbar-nav>li>a {
@@ -124,10 +124,10 @@ i.breadcrumbIcon {
     border-bottom: 3px solid #ffffff;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    border-bottom: 3px solid #f67c0a;
+    border-bottom: 3px solid #5328ff;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: #f67c0a;
+    color: #5328ff;
 }
 .navbar-default .navbar-collapse {
     border-color: #ecf0f1;
@@ -160,7 +160,7 @@ a.dropdown-toggle:hover {
     color: #fff;
 }
 .topbar .top-menu .login {
-    background-color: #f67c0a;
+    background-color: #5328ff;
     margin-right: 10px;
 }
 .topbar .top-menu .dropdown-toggle:hover {
@@ -170,7 +170,7 @@ a#lostpassword:hover,
 a#newClient:hover {
     border: 0;
     text-decoration: underline;
-    color: #F67C0A;
+    color: #5328ff;
 }
 a#newClient,
 a#lostpassword {
@@ -360,7 +360,7 @@ ul {
     font-weight: 700;
 }
 a.linkmore {
-    background-color: #f67c0a;
+    background-color: #5328ff;
     border-bottom: 3px solid #9d4d03;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -387,7 +387,7 @@ a.linkmore:hover {
     color: #a7d221;
 }
 .dedicated-server ul li strong {
-    color: #f67c0a;
+    color: #5328ff;
 }
 .guarantee h2 {
     color: #0c0c0c;
@@ -396,7 +396,7 @@ a.linkmore:hover {
     margin-bottom: 50px;
 }
 .guarantee-item h5 {
-    color: #f67c0a;
+    color: #5328ff;
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
@@ -439,7 +439,7 @@ a.linkmore:hover {
     width: 95%;
 }
 .testimonials-box .title strong {
-    color: #f67c0a;
+    color: #5328ff;
     font-weight: 600;
 }
 .transfer, .featureSoftwares, .technicalInfo {
@@ -455,7 +455,7 @@ a.linkmore:hover {
 }
 .transfer h5 {
     font-size: 25px;
-    color: #f67c0a;
+    color: #5328ff;
     font-weight: 300;
 }
 .transfer p, .featureSoftwares p, .technicalInfo p {
@@ -468,11 +468,11 @@ a.linkmore:hover {
     color: #a7d221;
 }
 .transfer ul li strong {
-    color: #f67c0a;
+    color: #5328ff;
 }
 i.transfericon {
     font-size: 280px;
-    color: #f67c0a;
+    color: #5328ff;
     font-weight: 700;
     text-align: center;
     display: block;
@@ -562,7 +562,7 @@ a.get-started:hover {
     color: #aaaaaa;
 }
 .footer-parts a:hover {
-    color: #f67c0a;
+    color: #5328ff;
 }
 .bottom-footer {
     border-top: 1px solid #4b4b4b;
@@ -635,7 +635,7 @@ body > p:last-child {
     display: block!important;
 }
 #back-to-top:hover {
-    background-color: #F67C0A;
+    background-color: #5328ff;
 }
 
 #back-to-top:hover i {
@@ -707,7 +707,7 @@ button.togglebtn.btn:focus {
     display: list-item;
 }
 .popoverCursor:hover {
-    color: #F67C0A;
+    color: #5328ff;
 }
 .withoutFreeDomains,
 .YearlyWithFreeDomains,
@@ -773,7 +773,7 @@ button.togglebtn.btn:focus {
     padding-top: 0;
 }
 a.signup {
-    background-color: #f67c0a;
+    background-color: #5328ff;
     border-bottom: 3px solid #9d4d03;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -837,7 +837,7 @@ section.featureSoftwares {
 }
 i.listicon {
     font-size: 70px;
-    color: #F67C0A;
+    color: #5328ff;
 }
 .listInfo h3 {
     font-size: 30px;
@@ -885,13 +885,13 @@ i.listicon {
     cursor: not-allowed;
 }
 .yellow-tooltip + .tooltip.top .tooltip-arrow {
-    border-top-color: #F67C0A;
+    border-top-color: #5328ff;
 }
 .yellow-tooltip + .tooltip.top .tooltip-inner {
-    background: #F67C0A;
+    background: #5328ff;
 }
 .yellow-tooltip + .tooltip.bottom .tooltip-arrow {
-    border-bottom-color: #F67C0A;
+    border-bottom-color: #5328ff;
 }
 .yellow-tooltip + .tooltip.bottom .tooltip-inner {
     background: #F67C0A;
@@ -932,7 +932,7 @@ i.listicon {
     width: 100%;
     position: relative;
     z-index: 9;
-    background: #F67C0A;
+    background: #5328ff;
     display: inline-block;
     color: #fff;
     border-top: 1px solid #0e6f39;
@@ -1170,7 +1170,7 @@ a.btn.btn-download:hover {
     margin-left: 10px;
 }
 .terms_policies_menu ul li.active {
-    color: #f67c0a;
+    color: #5328ff;
 }
 .wrapper_content li#accountLink a:active,
 .wrapper_content li#accountLink a:link,
@@ -1188,7 +1188,7 @@ a.btn.btn-download:hover {
     color: #fff;
 }
 .wrapper_content  li#accountLink {
-    background: #F67C0A;
+    background: #5328ff;
     color: #fff;
 }
 .wrapper_content .accountLinkPadding {
@@ -1196,7 +1196,7 @@ a.btn.btn-download:hover {
     padding-right: 5px;
 }
 li.logoutBtn.redBtn {
-    background: #F67C0A;
+    background: #5328ff;
     color: #fff;
     border-left: 1px solid #CC6B12;
 }
