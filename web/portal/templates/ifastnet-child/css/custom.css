@@ -23,16 +23,16 @@ section#main-menu {
     border-bottom: 1px solid #e7e7e7;
 }
 .navbar-main li#Secondary_Navbar-Account {
-    background-color: #f67c0a;
+    background-color: #0072ff;
 }
 
 .navbar-main .navbar-nav>.active>a, .navbar-main .navbar-nav>.active>a:focus, .navbar-main .navbar-nav>.active>a:hover, .navbar-main .navbar-nav>.open>a, .navbar-main .navbar-nav>.open>a:focus, .navbar-main .navbar-nav>.open>a:hover, .navbar-main .navbar-nav>li>a:focus, .navbar-main .navbar-nav>li>a:hover {
-    background-color: #f67c0a;
+    background-color: #0072ff;
     color: #fff;
 }
 
 .navbar-main li#Secondary_Navbar-Account > a {
-    border-bottom: 3px solid #f67c0a;
+    border-bottom: 3px solid #0072ff;
     color: #fff;
 }
 
@@ -40,10 +40,10 @@ section#main-menu {
     color: #fff;
 }
 .navbar-default nav.navigation .navbar-nav>li>a:hover {
-    color: #f67c0a;
+    color: #0072ff;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    border-color: #f67c0a;
+    border-color: #0072ff;
 }
 
 #main-body .panel-default > .panel-heading, #main-body .panel-success > .panel-heading {
