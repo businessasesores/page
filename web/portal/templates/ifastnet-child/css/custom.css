@@ -1,0 +1,99 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+.w-hidden {
+    display: none;
+}
+.alert-danger p {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.mt-1 {
+    margin-top: 1rem;
+}
+section#main-menu {
+    margin-top: 67px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.navbar-main li#Secondary_Navbar-Account {
+    background-color: #f67c0a;
+}
+
+.navbar-main .navbar-nav>.active>a, .navbar-main .navbar-nav>.active>a:focus, .navbar-main .navbar-nav>.active>a:hover, .navbar-main .navbar-nav>.open>a, .navbar-main .navbar-nav>.open>a:focus, .navbar-main .navbar-nav>.open>a:hover, .navbar-main .navbar-nav>li>a:focus, .navbar-main .navbar-nav>li>a:hover {
+    background-color: #f67c0a;
+    color: #fff;
+}
+
+.navbar-main li#Secondary_Navbar-Account > a {
+    border-bottom: 3px solid #f67c0a;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.navbar-default nav.navigation .navbar-nav>li>a:hover {
+    color: #f67c0a;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    border-color: #f67c0a;
+}
+
+#main-body .panel-default > .panel-heading, #main-body .panel-success > .panel-heading {
+    color: #555;
+    border-color: #eee;
+    background: #f5f5f5;
+    border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid #eeeeee;
+}
+.dropdown:hover .dropdown-menu {
+    border: 1px solid #e7e7e7;
+}
+
+div.header-lined h1 {
+    color: #555;
+}
+.nopadding {
+    padding: 0;
+}
+section.section-wrap.services .row.hidden-xs .text-center > a.btn.btn-primary {
+    border-radius: 0;
+    background: #F67C0A;
+    border: 1px solid #A75101;
+    border-bottom: 2px solid #A75101;
+    color: #fff;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.language-form strong {
+line-height: 35px;
+}
+.language-form select {
+position: relative;
+vertical-align: top;
+border: 1px solid #ddd;
+display: -moz-inline-stack;
+display: inline-block;
+color: #626262;
+outline: 0;
+background: #fff;
+height: 36px;
+border-radius: 3px;
+font-size: 13px;
+}
+div#solusvmpro_accordion a {
+    color: #333;
+}
