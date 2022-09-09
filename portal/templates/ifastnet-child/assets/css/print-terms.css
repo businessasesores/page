@@ -1,0 +1,22 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .termsInfo .termsHead *, .termsInfo .termsDiv * {
+        visibility: visible;
+    }
+    .termsInfo .termsHead h1 {
+        text-transform: uppercase;
+    }
+    .termsInfo {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .termsInfo .termsDiv {
+        height: 100%;
+    }
+    .termsInfo .termsInfo {
+        visibility: hidden;
+    }
+}
