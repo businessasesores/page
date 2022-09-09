@@ -507,10 +507,10 @@ i.transfericon {
     font-size: 16px;
 }
 .footer-get-started {
-    background-color: #0e8d44;
+    background-color: #0072ff;
     padding: 10px 0;
-    border-bottom: 2px solid #0e6f39;
-    border-top: 2px solid #0e6f39;
+    border-bottom: 2px solid #00c6ff;
+    border-top: 2px solid #002450;
 }
 .footer-get-started .sp strong {
     color: #ffffff;
@@ -518,8 +518,8 @@ i.transfericon {
     font-weight: 700;
 }
 a.get-started {
-    background-color: #f67c0a;
-    border-bottom: 3px solid #9d4d03;
+    background-color: #5328ff;
+    border-bottom: 3px solid #35286A;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
