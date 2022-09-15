@@ -235,6 +235,135 @@
                     </div>
                    </form>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="elementor-widget-container">
+                            <p>
+                            <!-- wp:heading {"level":4,"align":"wide","style":{"typography":{"lineHeight":"1.1"}},"className":"has-text-align-wide","fontSize":"gigantic"} -->
+                            </p>
+                            <!-- vinculo a bootstrap -->
+                            <h1 style="text-align: center;">
+                                <span style="color: #008000;">CONSULTE LA DISPONIBILIDAD DE SU DOMINIO:</span>
+                            </h1>
+                            <!-- Temas-->
+                            <p>
+                                <style type="text/css">
+                                    #Contenedor {
+                                        width: 60%;
+                                        padding: 0px;
+                                        height: auto;
+                                        margin: 0px auto;
+                                    }
+
+                                    .clarin {
+                                        width: 115%;
+                                    }
+                                </style>
+                            </p>
+                            <div id="Contenedor">
+                                <div id="loader" style="margin-bottom: 1px;" align="center"></div>
+                                <div class="row">
+                                    <form style="margin-bottom: 0px;">
+                                        <div class="btn-group">
+                                            <div class="input-group input-group-lg clarin">
+                                                <div class="input-group-addon">
+                                                    <i class="fa fa-globe"></i>
+                                                </div>
+                                                <input id="Nomb" class="form-control" style="border-right: none;" name="Nomb" type="text" placeholder=""/>
+                                                <span class="input-group-btn">
+                                                    <select id="Ext" class="form-control" style="height: 46px; border-left: none; border-top-left-radius: 12px; border-bottom-left-radius: 12px; font-size: 16px;" name="Ext">
+                                                        <option>.com</option>
+                                                        <option>.net</option>
+                                                        <option>.co</option>
+                                                        <option>.com.co</option>
+                                                        <option>.org.co</option>
+                                                        <option>.org</option>
+                                                        <option>.xyz</option>
+                                                        <option>.info</option>
+                                                        <option>.ga</option>
+                                                    </select>
+                                                    <button id="Enviar" class="btn btn-success" type="button">
+                                                        <i class="fa fa-search"></i>
+                                                        Buscar 
+                                                    </button>
+                                                </span>
+                                            </div>
+                                            <!-- /input-group -->
+                                        </div>
+                                    </form>
+                                    <!--Aqui es donde se muestra la disponibilidad de Dominios-->
+                                    <div id="Mostrar"></div>
+                                </div>
+                            </div>
+                            <!-- vinculando a libreria Jquery-->
+                            <p>
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                            </p>
+                            <!-- Libreria java scritp de bootstrap -->
+                            <p>
+                                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                                <script type="text/javascript">
+                                    var Incremento = 0;
+                                    $("#Enviar").click(function(event) {
+                                        Incremento++;
+                                        //Validando
+                                        if ($("#Nomb").val() == "") {
+                                            $("#loader").html("<strong style='color:red;'>Error escriba el nombe del Dominio</strong>");
+                                        } else {
+                                            $("#loader").html("<img src='indicator.gif'>");
+                                            $.ajax({
+                                                url: 'buscador.php',
+                                                type: 'POST',
+                                                dataType: 'text',
+                                                data: {
+                                                    Nomb: $("#Nomb").val(),
+                                                    "Ext": $("#Ext").val(),
+                                                    "Incremento": Incremento
+                                                },
+                                            }).done(function(data) {
+                                                $("#loader").html("");
+                                                $("#Mostrar").append(data);
+                                            }).fail(function() {
+                                                console.log("error");
+                                            }).always(function() {
+                                                console.log("complete");
+                                            });
+                                        }
+                                    });
+                                </script>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
     <div class="home-shortcuts">
         <div class="container">
